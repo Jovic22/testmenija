@@ -112,13 +112,18 @@ nav .fa {
   background-color: white;
 }
 
-@media(max-width: 700px){
+@media(max-width: 730px){
   .text-kutija h1{
     font-size: 20px;
+  }
+
+  nav img {
+    margin-top: 15px;
   }
   
   .hamburger{
     display: block;
+    z-index: 6;
   }
   .hamburger.active .bar:nth-child(2){
     opacity: 0;
@@ -136,7 +141,7 @@ nav .fa {
     top: 0;
     gap: 0;
     flex-direction: column;
-    background-color: rgba(4,9,30,0.7);
+    background-color: rgba(4,9,30,0.9);
     width: 100%;
     text-align: center;
     transition: 0.3s;
@@ -149,12 +154,16 @@ nav .fa {
     height: 100vh;
   }
 
+  .nav-links ul li a{
+    font-size: 22px;
+  }
+
   .nav-links.active{
     left: 0;
   }
   
   .nav-links ul li {
-    padding: 20px 0;
+    padding: 35px 0;
     top: 50px;
   }
 
