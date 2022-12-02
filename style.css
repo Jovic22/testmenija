@@ -77,7 +77,7 @@ nav img {
 }
 .text-kutija p {
   margin: 10px 0 40px;
-  font-size: 14px;
+  font-size: 17px;
   color: #fff;
 }
 
@@ -120,8 +120,16 @@ nav .fa {
 
 @media(max-width: 730px){
   .text-kutija h1{
-    font-size: 20px;
+    font-size: 34px;
   }
+
+  
+  .text-kutija p {
+    
+    font-size: 15px;
+    
+  }
+  
 
   nav img {
     margin-top: 15px;
