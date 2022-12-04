@@ -9,13 +9,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<section class="header">
+<section class="header11 header" >
     <nav>
       <a href="index.html"><img src="images/logo.png"></a>
       <div class="nav-links" id="navLinks">
         
         <ul class="ulinkovi">
-          <li><a href="index.html" class="nav-link">POČETNA</a></li>
+          <li><a href="index.html" class="nav-link">NASLOVNA</a></li>
           <li><a href="galerija.html" class="nav-link">GALERIJA</a></li>
           <li><a href="katalog.html" class="nav-link">KATALOG</a></li>
           <li><a href="onama.html" class="nav-link">O NAMA</a></li>
@@ -31,13 +31,46 @@
       
     </nav>
 
-<div class="text-kutija">
-  <h1>Prirodni Kamen Dika</h1>
-  <p>Struganik Kamenorezačka Radnja Dikić, Prirodni Kamen Dika Mionica.<br>Prodaja kamena, prevoz i ugradnja prirodnog kamena u Srbiji<br>koji eksploatišemo iz sopstvenog kamenoloma.</p>
-  <a href="" class="pocetni-btn">Poseti nas</a>
+<div class="text-kutija1 text-kutija">
+  <h1>GALERIJA</h1>
+  <p>Pogledajte našu galeriju prirodnog kamena i radova.</p>
+
+  <div class="butonigalerija">
+  <a href="#naslovgalerije1" class="pocetni-btn">STRUGANIČKI<br>KAMEN</a>
+  <a href="" class="pocetni-btn">RAVNOGORSKI<br>KAMEN</a>
+  <a href="" class="pocetni-btn">STUDENIČKI<br>KAMEN</a>
+  <a href="" class="pocetni-btn">ŠARENI<br>KAMEN</a>
+  </div>
 </div>    
 
 </section>
+<div class="full-img" id="fullImgBox">
+  <img src="images/img11.png" id="fullImg">
+  <span onclick="closefullImg()">x</span>
+</div>
+
+
+<div class="naslovgalerije1" id="naslovgalerije1"  >
+  <h1>STRUGANIČKI KAMEN</h1>
+</div>
+
+<div class="linija1">
+
+</div>
+
+<div  class="img-galerija">
+  <img src="images/img11.png" onclick="openfullImg(this.src)">
+  <img src="images/img12.png" onclick="openfullImg(this.src)">
+  <img src="images/img13.png" onclick="openfullImg(this.src)">
+  <img src="images/img14.png" onclick="openfullImg(this.src)">
+  <img src="images/img15.png" onclick="openfullImg(this.src)">
+  <img src="images/img16.png" onclick="openfullImg(this.src)">
+  <img src="images/img17.png" onclick="openfullImg(this.src)">
+  <img src="images/img18.png" onclick="openfullImg(this.src)">
+
+</div>
+
+
 <script src="script.js"></script>
 
 </body>
